@@ -1,4 +1,67 @@
+
+*{
+   margin: 0;
+   padding: 0;
+}
+nav{
+   background-color: black;
+   height: 110px;
+   color: #4287f5;
+   font-size: larger;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
 h1{
-    color:rgb(49, 211, 79);
-    text-align: center;
+   font-family: "MadelynRegular","Mont","Fontfabric-Notdef",sans-serif;
+   font-size: 45px;
+}
+.footer{
+   background-color: black;
+   color: white;
+   font-size: larger;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   text-decoration: none;
+}
+a{
+   color: white;
+   text-decoration: none;
+}
+#id{
+color: whitesmoke;
+font-size: 2em;
+text-align: center;
+border-top:2px solid white;
+}
+.middle{
+background-color: black;
+color: whitesmoke;
+font-size: larger;
+}
+p{
+   font-size: medium;
+}
+#back{
+   height: 800px;
+   background-image: url(gojo.jpg);
+   background-size: cover;
+}
+#photo{
+   background-image: url(uncover.jpg);
+   width: fit-content; 
+   background-size: cover;
+}
+button{
+   margin-left: 80px;
+   background-color:  rgb(23, 23, 77);
+   color: white;
+   border: 0;
+   padding: 15px;
+}
+button:hover{
+   background-color: antiquewhite;
+   color: grey;
 }
